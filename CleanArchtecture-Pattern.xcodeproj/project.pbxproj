@@ -16,6 +16,8 @@
 		6D95D42E2270228B00BBCABA /* CleanArchtecture_PatternUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D95D42D2270228B00BBCABA /* CleanArchtecture_PatternUITests.swift */; };
 		6D95D43C22703A9F00BBCABA /* UseCaseSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D95D43B22703A9F00BBCABA /* UseCaseSample.swift */; };
 		6D95D442227050F000BBCABA /* GitHubRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D95D441227050F000BBCABA /* GitHubRepo.swift */; };
+		6D95D444227170F600BBCABA /* GitHubRepoStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D95D443227170F600BBCABA /* GitHubRepoStatus.swift */; };
+		6D95D446227171D800BBCABA /* GitHubRepoStatusList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D95D445227171D800BBCABA /* GitHubRepoStatusList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		6D95D42F2270228B00BBCABA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6D95D43B22703A9F00BBCABA /* UseCaseSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseCaseSample.swift; sourceTree = "<group>"; };
 		6D95D441227050F000BBCABA /* GitHubRepo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubRepo.swift; sourceTree = "<group>"; };
+		6D95D443227170F600BBCABA /* GitHubRepoStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubRepoStatus.swift; sourceTree = "<group>"; };
+		6D95D445227171D800BBCABA /* GitHubRepoStatusList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubRepoStatusList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +142,8 @@
 			isa = PBXGroup;
 			children = (
 				6D95D441227050F000BBCABA /* GitHubRepo.swift */,
+				6D95D443227170F600BBCABA /* GitHubRepoStatus.swift */,
+				6D95D445227171D800BBCABA /* GitHubRepoStatusList.swift */,
 			);
 			path = Entity;
 			sourceTree = "<group>";
@@ -296,7 +302,9 @@
 			files = (
 				6D95D442227050F000BBCABA /* GitHubRepo.swift in Sources */,
 				6D95D4102270228900BBCABA /* ViewController.swift in Sources */,
+				6D95D444227170F600BBCABA /* GitHubRepoStatus.swift in Sources */,
 				6D95D40E2270228900BBCABA /* AppDelegate.swift in Sources */,
+				6D95D446227171D800BBCABA /* GitHubRepoStatusList.swift in Sources */,
 				6D95D43C22703A9F00BBCABA /* UseCaseSample.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -15,6 +15,7 @@
 		6D95D4232270228B00BBCABA /* CleanArchtecture_PatternTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D95D4222270228B00BBCABA /* CleanArchtecture_PatternTests.swift */; };
 		6D95D42E2270228B00BBCABA /* CleanArchtecture_PatternUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D95D42D2270228B00BBCABA /* CleanArchtecture_PatternUITests.swift */; };
 		6D95D43C22703A9F00BBCABA /* UseCaseSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D95D43B22703A9F00BBCABA /* UseCaseSample.swift */; };
+		6D95D442227050F000BBCABA /* GitHubRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D95D441227050F000BBCABA /* GitHubRepo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		6D95D42D2270228B00BBCABA /* CleanArchtecture_PatternUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanArchtecture_PatternUITests.swift; sourceTree = "<group>"; };
 		6D95D42F2270228B00BBCABA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6D95D43B22703A9F00BBCABA /* UseCaseSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseCaseSample.swift; sourceTree = "<group>"; };
+		6D95D441227050F000BBCABA /* GitHubRepo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubRepo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,10 @@
 		6D95D40C2270228900BBCABA /* CleanArchtecture-Pattern */ = {
 			isa = PBXGroup;
 			children = (
+				6D95D440227050C700BBCABA /* FrameworkDriver */,
+				6D95D43F227050B900BBCABA /* InterfaceAdapter */,
+				6D95D43E227050AD00BBCABA /* UseCase */,
+				6D95D43D227050A000BBCABA /* Entity */,
 				6D95D40D2270228900BBCABA /* AppDelegate.swift */,
 				6D95D40F2270228900BBCABA /* ViewController.swift */,
 				6D95D4112270228900BBCABA /* Main.storyboard */,
@@ -126,6 +132,35 @@
 				6D95D42F2270228B00BBCABA /* Info.plist */,
 			);
 			path = "CleanArchtecture-PatternUITests";
+			sourceTree = "<group>";
+		};
+		6D95D43D227050A000BBCABA /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				6D95D441227050F000BBCABA /* GitHubRepo.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		6D95D43E227050AD00BBCABA /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UseCase;
+			sourceTree = "<group>";
+		};
+		6D95D43F227050B900BBCABA /* InterfaceAdapter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = InterfaceAdapter;
+			sourceTree = "<group>";
+		};
+		6D95D440227050C700BBCABA /* FrameworkDriver */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FrameworkDriver;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +294,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D95D442227050F000BBCABA /* GitHubRepo.swift in Sources */,
 				6D95D4102270228900BBCABA /* ViewController.swift in Sources */,
 				6D95D40E2270228900BBCABA /* AppDelegate.swift in Sources */,
 				6D95D43C22703A9F00BBCABA /* UseCaseSample.swift in Sources */,

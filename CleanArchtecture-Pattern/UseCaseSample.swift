@@ -1,11 +1,3 @@
-//
-//  UseCaseSample.swift
-//  CleanArchtecture-Pattern
-//
-//  Created by 渡邊丈洋 on 2019/04/24.
-//  Copyright © 2019 渡邊丈洋. All rights reserved.
-//
-
 import Foundation
 
 // Use Case層
@@ -27,6 +19,7 @@ final class UseCase: UsecaseInputPort {
         output?.useCaseDidUpdate(value: value)
     }
 }
+
 // インターフェイスアダプター層
 final class Presenter: UsecaseOutputPort {
     func useCaseDidUpdate(value: Int) {
@@ -43,6 +36,7 @@ final class Controller {
         useCaseInput.update(something: value)
     }
 }
+
 // 円の構築
 let useCase: UseCase = .init(output: Presenter())
 let controller: Controller = .init(input: useCase)

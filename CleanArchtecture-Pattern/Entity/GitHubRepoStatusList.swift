@@ -33,4 +33,13 @@ struct GitHubRepoStatusList {
             self.statuses.append(status)
         }
     }
+    
+    mutating func set(isLiked: Bool, for id: GitHubRepo.ID) throws {
+        // statusesにある指定GitHubリポジトリのお気に入り状態を更新する
+        // 存在しないGitHubリポジトリを指定した場合はnotFoundRepo例外を投げる
+    }
+    
+    subscript(id: GitHubRepo.ID) -> GitHubRepoStatus? {
+        return statuses.first(where: { $0.repo.id == id })
+    }
 }

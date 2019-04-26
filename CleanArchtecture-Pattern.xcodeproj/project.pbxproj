@@ -19,6 +19,8 @@
 		6D95D444227170F600BBCABA /* GitHubRepoStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D95D443227170F600BBCABA /* GitHubRepoStatus.swift */; };
 		6D95D446227171D800BBCABA /* GitHubRepoStatusList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D95D445227171D800BBCABA /* GitHubRepoStatusList.swift */; };
 		6D95D44822718CF200BBCABA /* ReposLikesUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D95D44722718CF200BBCABA /* ReposLikesUseCase.swift */; };
+		6D95D44A2271A54200BBCABA /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D95D4492271A54200BBCABA /* Result.swift */; };
+		6D95D44C2271A57D00BBCABA /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D95D44B2271A57D00BBCABA /* Error.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		6D95D443227170F600BBCABA /* GitHubRepoStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubRepoStatus.swift; sourceTree = "<group>"; };
 		6D95D445227171D800BBCABA /* GitHubRepoStatusList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubRepoStatusList.swift; sourceTree = "<group>"; };
 		6D95D44722718CF200BBCABA /* ReposLikesUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReposLikesUseCase.swift; sourceTree = "<group>"; };
+		6D95D4492271A54200BBCABA /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		6D95D44B2271A57D00BBCABA /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +158,8 @@
 			isa = PBXGroup;
 			children = (
 				6D95D44722718CF200BBCABA /* ReposLikesUseCase.swift */,
+				6D95D4492271A54200BBCABA /* Result.swift */,
+				6D95D44B2271A57D00BBCABA /* Error.swift */,
 			);
 			path = UseCase;
 			sourceTree = "<group>";
@@ -309,6 +315,8 @@
 				6D95D40E2270228900BBCABA /* AppDelegate.swift in Sources */,
 				6D95D44822718CF200BBCABA /* ReposLikesUseCase.swift in Sources */,
 				6D95D446227171D800BBCABA /* GitHubRepoStatusList.swift in Sources */,
+				6D95D44A2271A54200BBCABA /* Result.swift in Sources */,
+				6D95D44C2271A57D00BBCABA /* Error.swift in Sources */,
 				6D95D43C22703A9F00BBCABA /* UseCaseSample.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
